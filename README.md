@@ -1,6 +1,8 @@
 CalendarBundle - jQuery fullcalendar bundle.
 ===============
 
+Latest version of jQuery fullcalendar was integrated into this bundle. This a for of original bundle provided by https://github.com/adesigns/calendar-bundle .
+
 This bundle allows you to integrate the [jQuery FullCalendar](http://arshaw.com/fullcalendar/) plugin into your Symfony2 application.
 
 Once installed, this bundle will use event listeners to load events from any bundle in your application.
@@ -58,6 +60,7 @@ Javascript:
 ```
 <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/jquery/jquery-1.8.2.min.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/fullcalendar/jquery.fullcalendar.min.js') }}"></script>
+<script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/fullcalendar/lang-all.js') }}"></script>
 <script type="text/javascript" src="{{ asset('bundles/adesignscalendar/js/calendar-settings.js') }}"></script>
 ```    
 Then, in the template where you wish to display the calendar, add the following twig:
